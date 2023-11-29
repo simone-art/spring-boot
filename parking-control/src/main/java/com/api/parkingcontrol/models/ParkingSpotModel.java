@@ -1,6 +1,5 @@
 package com.api.parkingcontrol.models;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,7 +12,7 @@ import java.util.UUID;
 @Table(name = "TB_PARKING_SPOT")
 @Getter
 @Setter
-public class PakingSpotModel implements Serializable {
+public class ParkingSpotModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
