@@ -1,7 +1,8 @@
-package com.api.parkingcontrol.services;
+package com.api.parkingcontrol.services.impl;
 
 import com.api.parkingcontrol.models.ParkingSpotModel;
 import com.api.parkingcontrol.repositories.ParkingSpotRepository;
+import com.api.parkingcontrol.services.ParkingSpotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.domain.Page;
@@ -15,7 +16,7 @@ import java.util.UUID;
 
 @Primary
 @Service
-public class ParkingSpotServiceImpl implements ParkingSpotService{
+public class ParkingSpotServiceImpl implements ParkingSpotService {
 
     final ParkingSpotRepository parkingSpotRepository;
 
