@@ -26,7 +26,7 @@ import java.util.UUID;
 public class ParkingSpotController {
 
     @Autowired
-    @Qualifier("parkingSpotServiceImpl")        
+    @Qualifier("parkingSpotServiceImpl")
     ParkingSpotService parkingSpotService;
 
     @PostMapping
